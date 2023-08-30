@@ -2,13 +2,9 @@ import json
 
 import requests
 
-from Hal import initialize_assistant
 from Hal.Classes import Response
 from Hal.Decorators import reg
 from Hal.Skill import Skill
-
-assistant = initialize_assistant()
-
 
 class Weather(Skill):
     def __init__(self):
