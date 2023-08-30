@@ -10,6 +10,7 @@ print("imported")
 
 class Weather(Skill):
     def __init__(self):
+        print("initialised")
         pass
 
     def query_weather(self, enpoint, method="get", data={}, query_params={}):
