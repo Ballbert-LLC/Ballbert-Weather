@@ -6,6 +6,8 @@ from Hal.Classes import Response
 from Hal.Decorators import reg
 from Hal.Skill import Skill
 
+print("imported")
+
 class Weather(Skill):
     def __init__(self):
         pass
